@@ -89,10 +89,10 @@ anything you execute:
 1. Print a list of python installations on your `$PATH` (the top one is the one
     that will get executed if you type `python` in the terminal):
     `which python -a`
-1. Activate the new environment: `source activate py3iaml`
+1. Activate the new environment: `conda activate py3iaml`
 1. Show list of python installations on your system *now*: `which python -a`
 1. Show your system `$PATH` again: `echo $PATH`
-1. Deactivate the new environment: `source deactivate`
+1. Deactivate the new environment: `conda deactivate`
 1. Observer how your $PATH has changed again: `echo $PATH`
 1. Make an empty environment: `conda create --name empty`
 1. You can clone environments; this is useful for backing up: `conda create
